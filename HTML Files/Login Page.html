@@ -1,0 +1,81 @@
+<!DOCTYPE html>  
+<html>
+<head>
+<meta charset="utf-8">
+<title>Login and registration form design</title>
+	<link rel="stylesheet" href="css/style.css" />
+	<script src="js/login.js"></script>
+	
+	
+</head>
+<body>
+<h1 style="text-align:center; 
+		   font-size:75px; 
+		   color: Black; 
+		   font-family: Cooper;">FOOD BIZARRE</h1> 
+<h2 style="text-align:center; 
+		   font-size:75px; 
+		   color: Blue; 
+		   font-family: Cooper;"> TASTE OF THE CAPE</h2>
+		   
+<h3 style="text-align: center-left;
+		   font size: 50px;
+		   color:Black;
+		   font-family:Arial;">Login and place your food orders</h3>
+<h4 style="text-align: center-left;
+		   font-size: 20px;
+		   color:Black;
+		   font-family:Arial;">Orders to be collected at 4 Sachs Street, Bo-Kaap, Cape Town</h4>
+
+<h5 style="text-align: center-left;
+		   font-size: 20px;
+		   color:Black;
+		   font-family:Times New Roman;">Contact:(Tel)063 922 0606</h5>
+<h6 style="text-align: center-left;
+		   font-size: 20px;
+		   color:Black;
+		   font-family:Times New Roman;">Email Address: shuaib.allie@gmail.com</h6>
+		   
+	<div class="login-page">
+	<div class="form">
+		<form class="registration-form">
+		<input type="text" placeholder="Username" id="username"/>
+		<input type="password" placeholder="Password" id="password"/>
+		<input type="text" placeholder="Email Address" id="emailaddress"/>	
+	
+		<button onclick="validate()">Login</button>
+
+		<p class="message">Not Registered <a href="#">Register</a> </p>
+
+		</form>
+
+		
+	
+	<form class="login-form">
+	<input type="text" placeholder="Username"/>
+	<input type="text" placeholder="Email Address"/>
+	<input type="password" placeholder="Password"/>
+	<input type="password" placeholder="Confirm Password"/>
+	<button>Create</button>
+	<p class="message">Already Registered? <a href="#"> Login</a> </p>
+	
+		</form>
+	
+	</div>
+        
+	</div>
+	
+		<script src='https://code.jquery.com/jquery-3.5.1.min.js'>
+		</script>
+		
+		<script>
+		$('.message a').click(function(){
+		$('form').animate({height: "toggle", opacity: "toggle"}, "slow");
+		});
+		</script>
+	
+		
+</body>
+
+</html>
+	

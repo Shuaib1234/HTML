@@ -1,0 +1,72 @@
+body{
+	background: url("../images/food.jpg");
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+
+
+.login-page{
+	width: 450px;
+	padding: 0%;
+	margin: auto;
+}
+
+.form{
+	position: Top;
+	z-index: 1;
+	background-color: Transparent;
+	max-width: 370px;
+	margin: center;
+	padding: 45px;
+	text-align: center;
+}
+
+.form input{
+	font-family: "Times New Roman", "sans-serif";
+	outline: 1;
+	background-color: white-space;
+	width: 100%;
+	margin: center;
+	box-sizing: border-box;
+	font-size: 16px;
+}
+
+.form button{
+	font-family: "Times New Roman", sans-serif;
+	text-transform: uppercase;
+	outline: 0;
+	background-color: olive;
+	width: 100%;
+	border: 0;
+	padding: 25px;
+	color: black;
+	font-size: 14px;
+	cursor: pointer;
+}
+
+.form button:hover,.form button:active{
+	background-color: green;
+}
+
+.form .message{
+	margin: 20px;
+	color: aliceblue;
+}
+
+.form .message {
+	color: red;
+	text-decoration: none;
+}
+
+.form .registration-form{
+	display: none;
+}
+
+
+
+
+
+
+
+

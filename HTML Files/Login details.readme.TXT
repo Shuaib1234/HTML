@@ -1,0 +1,5 @@
+username = "admin"
+
+password = "user"
+
+email address = "adminuser@gmail.com"

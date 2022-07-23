@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="it-edge">
+    <link rel="stylesheet" href="css/shopstyle.css">
+    <title>Shopping cart</title>
+</head>
+
+<h1>Orders can be paid for via card or cash upon collection</h1>
+
+<body>
+    <header>
+    <div class="overlay"> </div>
+    <nav>
+        <h2></h2>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li class="cart"><a href="shoppingcart.html">
+                <ion-icon name="basket"></ion-icon>Cart<span>0</span>
+                </a>
+            </li>
+        </ul>
+    </nav>    
+  
+        
+    </header>
+    
+    <div class = "products-container">
+        <div class = "product-header">
+        <h5 class = "product-title">PRODUCT</h5> 
+            <h5 class = "price">PRICE</h5>
+            <h5 class = "quantity">QUANTITY</h5> 
+            <h5 class = "total">TOTAL</h5>
+        </div>
+    
+        <div class = "products">
+            
+        </div>
+        
+</div>
+
+<button onclick="myFunction()">Checkout</button>
+
+
+<script>
+function myFunction() {
+  alert("Thank You! Your order has been processed.");
+}
+</script>
+    
+    <script src="js/carts.js"></script>
+    <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
+
+</body>
+
+</html>
+
+	
+	
